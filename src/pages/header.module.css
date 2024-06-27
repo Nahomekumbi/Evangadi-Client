@@ -1,0 +1,58 @@
+/* header.module.css */
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.headerLogo img {
+  height: 50px;
+}
+
+.headerParts {
+  display: flex;
+  align-items: center;
+}
+
+.headerParts p {
+  margin: 0 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.headerParts a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.headerInnerContainer{
+width: 1000px;
+display: flex;
+gap: 250px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.headerParts p:hover {
+  /* color: #007BFF; */
+  text-decoration: underline;
+}
+
+.header_button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header_button:hover {
+  background-color: #0056b3;
+}

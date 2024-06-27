@@ -1,0 +1,156 @@
+/* login.module.css */
+.loginWrapper{
+     background-image: url("../../src/pages/images/10001.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.section {
+  max-width: 50%;
+  width: 600px;
+  height: 450px;
+  /* margin: 0 auto; */
+  padding: 100px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+ 
+}
+.loginLink{
+  text-align: center;
+}
+.loginInsideWrapper{
+  /* width: 80%; */
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 20px;
+padding-top: 100px;
+padding-left: 400px;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.createLink,.create{
+  color:#FE8402;
+  
+}
+.linkHowItWorks,.aboutLink{
+   color: #FE8402;
+  text-decoration: none;
+}
+
+
+.submitButton, .createLink{
+  margin: 10px 130px;
+}
+.submitButton{
+  background-color: rgba(0, 128, 255, 1);
+  color: white;
+ border: none;
+ padding: 10px 0;
+}
+.button {
+  width: 80px;
+  padding: 5px 40px;
+  font-size: 16px;
+  color: #fff;
+  background-color:#FE8402;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 80px;
+  margin-top: 20px;
+}
+
+
+
+.link {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+.button a :hover{
+text-decoration: none;
+}
+
+
+
+
+/* Text styling */
+.padd-text {
+    animation: fadeInLeft 1s;
+}
+
+.small-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.title-h2 {
+    font-size: 28px;
+    background: linear-gradient(90deg, rgba(0, 128, 255, 1) 0%, rgba(0, 232, 255, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font-p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.mg-bt-30 {
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color:#FE8402;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #FE8402;
+}
+
+
+/* Animation */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

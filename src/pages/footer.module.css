@@ -1,0 +1,83 @@
+/* Apply styles to the wrapper for the whole page */
+.page_wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.main_content {
+  flex: 1;
+}
+
+/* Footer specific styles */
+.footer_wrapper {
+  background-color:#3b455a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer_wrapper>div {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer_wrapper img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.icon_links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.icon_links svg {
+  font-size: 24px;
+  color: white; /* Facebook color */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon_links svg:hover {
+  color:white;
+}
+
+.footer_wrapper h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer_wrapper a {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer_wrapper a:hover {
+  color:white;
+}
+
+.footer_wrapper p {
+  margin: 5px 0;
+  color: #6c757d;
+}
+.footerLinks{
+  display: flex;
+  flex-direction: column;
+}
+.contactInfo{
+
+  margin-right: 150px;
+}
+a:hover {
+  text-decoration: underline;
+}
